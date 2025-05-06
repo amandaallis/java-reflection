@@ -30,7 +30,6 @@ public class Transformer {
 
         Out targetClass = (Out) classDTO.getDeclaredConstructor().newInstance();
 
-
         Field[] sourceFields = source.getDeclaredFields();
         Field[] classDTOFields = classDTO.getDeclaredFields();
 

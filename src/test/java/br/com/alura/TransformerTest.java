@@ -42,5 +42,3 @@ public class TransformerTest {
        Assertions.assertNull(pessoaDTO.getCpf());
    }
 }
-/*. O termo "fixture" no contexto de desenvolvimento de software refere-se a um conjunto de dados de teste
-ou a um estado predefinido que é usado como base para realizar testes.*/
