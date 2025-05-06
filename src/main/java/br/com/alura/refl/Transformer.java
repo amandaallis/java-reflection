@@ -7,10 +7,6 @@ import java.util.Arrays;
 public class Transformer {
 
     private Boolean validate(Field sourceField, Field targetField) {
-        System.out.println("Aqui o source field");
-        System.out.println(sourceField);
-        System.out.println("Aqui o targetfield");
-        System.out.println(targetField);
         if(sourceField.getName().equals(targetField.getName())) {
             if(sourceField.getType().equals(targetField.getType())) {
                 sourceField.setAccessible(true);
@@ -50,7 +46,6 @@ public class Transformer {
                 }));
 
         return targetClass;
-
     }
 }
 
